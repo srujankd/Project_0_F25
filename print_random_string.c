@@ -3,8 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-
+#include </home/TU/tur71351/CIS3207/Project_0_F25/random.c>
 
 // random string generator wrapper function
 char* rand_string_alloc(size_t size)
@@ -22,16 +21,15 @@ int main()
 
 {
     char *str;
-    size_t size =   ;  //specify a value for size of word
+    size_t size = 5;  //specify a value for size of word
 
 	/* seed the randomizer */
 	srand( (unsigned)time(NULL) );
 
 	printf("Today's random word: ");
     str = rand_string_alloc(size );
-    printf("%s",str);
+    printf("%s \n",str);        //added new line
     free (str);
-    
 
 	return(0);
 }
