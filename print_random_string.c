@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include </home/TU/tur71351/CIS3207/Project_0_F25/random.c>
+#include </home/TU/tur71351/CIS3207/Project_0_F25/random.c>     // including random.c file
 
 // random string generator wrapper function
 char* rand_string_alloc(size_t size)
